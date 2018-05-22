@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8D4B55B-72D9-4012-84FC-1A4AAFD12CBE}</ProjectGuid>
+    <ProjectGuid>{1975036D-FCBA-4515-88E9-3F67A34A9246}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimpleVariabler</RootNamespace>
-    <AssemblyName>SimpleVariabler</AssemblyName>
+    <RootNamespace>Øvelse1</RootNamespace>
+    <AssemblyName>Øvelse1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassVar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
