@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 namespace TestAppConsole
 {
@@ -23,6 +19,10 @@ namespace TestAppConsole
             foreach (string s in readtext)
             { Console.WriteLine(s); }
             Console.ReadLine();
+            //TEST
+            //TEST2
+            Console.WriteLine("Hello World");
+            
         }
     }
 }
