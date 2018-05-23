@@ -55,8 +55,6 @@ namespace RefVariabler
                 Console.WriteLine(i);
             }
 
-
-
             Console.ReadKey();
 
 
