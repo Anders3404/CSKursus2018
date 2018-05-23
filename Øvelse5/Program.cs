@@ -11,9 +11,14 @@ namespace Øvelse5
         static void Main(string[] args)
         {
             Console.BackgroundColor = ConsoleColor.DarkYellow;
-            for (int i = 1; i < 21; i++)
+            System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
+
+            sw.Start();
+
+
+            for (int i = 1; i < 30; i++)
             {
-                for (int y = 1; y <= 21; y++)
+                for (int y = 1; y <= 29; y++)
                 {
                     if (y % 2 == 0)
                     {
@@ -37,8 +42,9 @@ namespace Øvelse5
 
             }
 
+            sw.Stop();
 
-            
+            Console.WriteLine(sw.ElapsedMilliseconds.ToString("N2"));
 
             Console.ReadKey();
         }
