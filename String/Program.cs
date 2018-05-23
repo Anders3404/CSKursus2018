@@ -11,7 +11,7 @@ namespace String
         static void Main(string[] args)
         {
 
-            char t = 'A';
+            //char t = 'A';
 
 
 
