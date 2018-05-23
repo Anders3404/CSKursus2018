@@ -11,10 +11,10 @@ namespace Øvelse2
         static void Main(string[] args)
         {
             DateTime d1 = DateTime.Now;
-            Console.WriteLine(d1.ToLongDateString() + " " + d1.ToLongTimeString());
+            Console.WriteLine(d1.ToString("F"));
 
             d1 = d1.AddDays(10);
-            Console.WriteLine(d1.ToLongDateString());
+            Console.WriteLine(d1);
 
             d1 = d1.AddMinutes(20);
             Console.WriteLine(d1.ToLongTimeString());
@@ -23,7 +23,7 @@ namespace Øvelse2
             Console.WriteLine(d1.ToLongDateString());
 
             DateTime d2 = DateTime.Now;
-            DateTime d3 = DateTime.Now.AddDays(10);
+            DateTime d3 = new DateTime(2018, 8, 1, 12, 0, 0);
             TimeSpan t1 = d3.Subtract(d2);
             Console.WriteLine(t1.Days.ToString() + " dage");
 
