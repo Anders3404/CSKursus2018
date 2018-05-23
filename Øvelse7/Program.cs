@@ -86,7 +86,7 @@ namespace Øvelse7
     {
         public double sum;
         public double gns;
-        public int[] list;
+        
 
     }
 }
