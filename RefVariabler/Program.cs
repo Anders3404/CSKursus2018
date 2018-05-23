@@ -39,6 +39,12 @@ namespace RefVariabler
                 Console.WriteLine("{0} ",i);
             }
 
+            //loop igennem alle via tæller
+
+            for (int i = 0; i < myInt3Array.Length; i++)
+            {
+                Console.WriteLine(i);
+            }
 
             Console.WriteLine("********SORTERET *********");
 
@@ -46,7 +52,7 @@ namespace RefVariabler
             Array.Sort(myInt3Array);
             foreach (int i in myInt3Array)
             {
-                Console.WriteLine("{0} ", i);
+                Console.WriteLine(i);
             }
 
 
