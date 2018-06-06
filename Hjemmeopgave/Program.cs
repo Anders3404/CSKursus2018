@@ -19,7 +19,7 @@ namespace Hjemmeopgave
             Console.WriteLine("Person 1:" + k1.navn);
             Console.WriteLine("Person 2:" + k2.navn);
 
-            k2.navn = k1.navn;
+            k1 = k2;
 
             Console.WriteLine("Person 1:" + k1.navn);
             Console.WriteLine("Person 2:" + k2.navn);
