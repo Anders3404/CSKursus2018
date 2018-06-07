@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorfi", "Polymorfi\Poly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorfi_dyr", "Polymorfi_dyr\Polymorfi_dyr.csproj", "{8B9FF2DE-D6E8-4A2D-9AE3-C15B917A3C02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "TryCatch\TryCatch.csproj", "{4225014C-39C1-44DB-971A-FF857BB39552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "CustomException\CustomException.csproj", "{BCE99E08-F83B-4FA4-AB44-2314040901FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{8B9FF2DE-D6E8-4A2D-9AE3-C15B917A3C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B9FF2DE-D6E8-4A2D-9AE3-C15B917A3C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B9FF2DE-D6E8-4A2D-9AE3-C15B917A3C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4225014C-39C1-44DB-971A-FF857BB39552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4225014C-39C1-44DB-971A-FF857BB39552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4225014C-39C1-44DB-971A-FF857BB39552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4225014C-39C1-44DB-971A-FF857BB39552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE99E08-F83B-4FA4-AB44-2314040901FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE99E08-F83B-4FA4-AB44-2314040901FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE99E08-F83B-4FA4-AB44-2314040901FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE99E08-F83B-4FA4-AB44-2314040901FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
