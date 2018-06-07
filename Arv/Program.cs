@@ -14,9 +14,7 @@ namespace Arv
 
             p1.Fornavn = "Anders";
             p1.Efternavn = "Sørensen";
-            p1.Klasselokale "Til højre"
-            
-
+            p1.Klasselokale = "Til højre";
             
 
             Console.WriteLine(p1.FuldtNavn());
