@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egenskaber4", "Egenskaber4\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatiskeMetoder", "StatiskeMetoder\StatiskeMetoder.csproj", "{92790725-DBB9-4120-B0BC-00BBD527CCD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv", "Arv\Arv.csproj", "{0E35FCF5-065B-4D50-96F8-437B132A938A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv_random", "Arv_random\Arv_random.csproj", "{F8774284-1271-4B86-A263-ED44ADC3F445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{92790725-DBB9-4120-B0BC-00BBD527CCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92790725-DBB9-4120-B0BC-00BBD527CCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92790725-DBB9-4120-B0BC-00BBD527CCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E35FCF5-065B-4D50-96F8-437B132A938A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E35FCF5-065B-4D50-96F8-437B132A938A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E35FCF5-065B-4D50-96F8-437B132A938A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E35FCF5-065B-4D50-96F8-437B132A938A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8774284-1271-4B86-A263-ED44ADC3F445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8774284-1271-4B86-A263-ED44ADC3F445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8774284-1271-4B86-A263-ED44ADC3F445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8774284-1271-4B86-A263-ED44ADC3F445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
