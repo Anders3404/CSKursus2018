@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interace", "Interace\Intera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interface_icompare", "interface_icompare\interface_icompare.csproj", "{2F908EFD-6A65-45B2-A141-089662C864F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "using_øvelse", "using_øvelse\using_øvelse.csproj", "{D1FD54BA-29CA-4055-AA93-9888F4EE3A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{B44088B3-A028-4B6E-BA13-7280B88F6D93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,14 @@ Global
 		{2F908EFD-6A65-45B2-A141-089662C864F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F908EFD-6A65-45B2-A141-089662C864F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F908EFD-6A65-45B2-A141-089662C864F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FD54BA-29CA-4055-AA93-9888F4EE3A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FD54BA-29CA-4055-AA93-9888F4EE3A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FD54BA-29CA-4055-AA93-9888F4EE3A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FD54BA-29CA-4055-AA93-9888F4EE3A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44088B3-A028-4B6E-BA13-7280B88F6D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44088B3-A028-4B6E-BA13-7280B88F6D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44088B3-A028-4B6E-BA13-7280B88F6D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44088B3-A028-4B6E-BA13-7280B88F6D93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
